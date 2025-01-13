@@ -45,7 +45,7 @@ li{
     height: 500px;
     color: white;
 }
-.border{
+.main{
     width:  450px;
     height: 450px;
     display: flex;
@@ -72,28 +72,19 @@ li{
         transform: rotate(360deg);
     }
 }
-#img{
-    background-image: url(https://i.postimg.cc/52hVJHds/1734970614040.jpg);
-    background-size: cover;
-    background-position: center;
-    width:  400px;
-    height: 400px;
-    position: absolute;
-    margin: auto;
-    border-radius: 50%;
-    z-index: 99;
-    animation: img 5s linear infinite;
-}
-@keyframes img{
-    0%{
-        transform: rotate(0deg);
-        
-    }
-    100%{
-        transform: rotate(0deg);
-    }
-}
 
+.main-img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+  
+    
+}
+#img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
 h2{
     position: relative;
     top: 60px;
